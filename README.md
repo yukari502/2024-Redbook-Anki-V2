@@ -34,6 +34,19 @@
 5. **单词释义更新**：
 原卡组同时并存了“红宝书原书释义”与“牛津词典释义”，卡片内容臃肿。经过比对和一段时间的使用，本版本隐藏了原书释义，**仅保留质量更高的牛津释义**，并将其作为主要释义使用。
 
+### 预览
+这是目前卡组的正面和反面预览。
+<p align="center">
+  <img src="/Preview/Front.png" alt="Front">
+    正面<br>
+</p>
+
+---
+
+<p align="center">
+  <img src="/Preview/Back.png" alt="Back">
+    反面<br>
+</p>
 
 ### TODO list
 1. 考虑对卡面中例句添加语音或者realtime TTS. 
