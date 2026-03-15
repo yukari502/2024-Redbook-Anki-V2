@@ -36,15 +36,16 @@
 
 ### 预览
 这是目前卡组的正面和反面预览。
+
 <p align="center">
-  <img src="/Preview/Front.png" alt="Front">
+  <img src="/Preview/Front.png" alt="Front" width="50%"> <br>
     正面<br>
 </p>
 
 ---
 
 <p align="center">
-  <img src="/Preview/Back.png" alt="Back">
+  <img src="/Preview/Back.png" alt="Back" width="50%"> <br>
     反面<br>
 </p>
 
