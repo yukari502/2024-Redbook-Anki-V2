@@ -1,0 +1,38 @@
+name:  卡片错漏反馈 / Card Correction
+description: 发现英文单词拼写、中文释义、例句或排版有错误？在这里向我反馈。
+title: "[错词] <填入具体单词>"
+labels: ["bug", "内容勘误"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢您协助完善《2024红宝书考研词汇V2》卡组！请详细填写以下信息以便修改。
+  - type: input
+    id: word
+    attributes:
+      label: 返回错误的具体单词
+      description: 卡片的正面内容是什么？
+      placeholder: 例如：negligible
+    validations:
+      required: true
+  - type: dropdown
+    id: error_type
+    attributes:
+      label: 错误类型
+      description: 这个卡片哪里出错了？
+      options:
+        - 拼写错误
+        - 中文释义不准确/缺失
+        - 英文例句/翻译有误
+        - 网页排版/样式错位 (CSS)
+        - 其它
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: 错误具体描述与建议修改
+      description: 请告诉我正确的应该是什么样的（有第三方字典依据最佳）。
+      placeholder: 例如：第一条牛津例句的中文翻译中，应该是“费用不大”而不是“费用巨大”...
+    validations:
+      required: true
